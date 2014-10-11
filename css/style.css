@@ -1,11 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 *{
 	padding:0;
 	margin:0;
-}	
+}
 body{
 	font-size: 62.5%;	
   /** you can set this as 100% if you want **/
@@ -30,7 +29,7 @@ h3{
 	font-family: 'Lora',serif;
 	color: #333;	
 }
-h4 {
+h4{
 	font-family: 'Lora',serif;
 }
 p, li, a{
@@ -54,16 +53,17 @@ a{
 	font-size: 1rem;
 }	
 
-/***********************************
-					Layout
-***********************************/
+/* -----------------------------------*/
+/* ---------->>> LAYOUT <<<-----------*/
+/* -----------------------------------*/
+
 .wrapper{
 	background-color: #FFFF9D;
     width: 100%;
     margin: 0 auto;
     overflow: auto;
 }
-.main, .two,.three {
+.main, .two,.three{
     border-radius: 3px;
 }
 .navbar{
@@ -77,7 +77,7 @@ a{
     width: 39%;
     background-color: #79BD8F;
 }
-.two {
+.two{
     margin-left: 1%;
     float: left;
     width: 22%;
@@ -96,19 +96,21 @@ a{
     bottom: 0;
     float: left;
 }
-/***********************************
-					Masthead
-***********************************/
+
+/* -----------------------------------*/
+/* ---------->>> MASTHEAD <<<---------*/
+/* -----------------------------------*/
+
 .masthead h1{
 	padding: 30px 20px;
 }
 
-/***********************************
-					Navigation
-***********************************/
+/* -----------------------------------*/
+/* ---------->>> NAVIGATION <<<-------*/
+/* -----------------------------------*/
 
 .navbar li{
-	width: 100%;;  /* 960/4 = 240  works if the layout is 960*/
+	width: 100%;  /* 960/4 = 240  works if the layout is 960*/
 	list-style: none;
 }
 .navbar a{
@@ -125,18 +127,18 @@ a{
 	background-color: #BEEB9F;
 }
 
-/***********************************
-					Content
-***********************************/
+/* -----------------------------------*/
+/* ---------->>> CONTENT <<<----------*/
+/* -----------------------------------*/
 .sidebar p{
 	font-size: 1.4rem;	
 }
 .instructions{
 	color: #C30;	
 }
-/***********************************
-					Footer
-***********************************/
+/* -----------------------------------*/
+/* ---------->>> FOOTER <<<-----------*/
+/* -----------------------------------*/
 .footer p{
 	padding: 20px 20px;
 	font-size: 1rem;
@@ -144,9 +146,9 @@ a{
 	background-color: #79BD8F;
 }
 
-/***********************************
-					@media's
-***********************************/
+/* -----------------------------------*/
+/* ---------->>> @MEDIA'S <<<---------*/
+/* -----------------------------------*/
 
 @media all and (max-width: 1080px) and (min-width: 720px){
     
@@ -174,7 +176,7 @@ a{
         font-size: 3rem;
     }
 	p{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 	h2{
         font-size: 2.8rem;
@@ -206,10 +208,12 @@ a{
         margin-left: 0%;
     }
     .two{
+        border-radius: 0px;
         width: 50%;
         margin-left: 0%;
     }
     .three{
+        border-radius: 0px;
         width: 50%;
         margin-right: 0%;
         margin-left: 0%;
@@ -218,7 +222,7 @@ a{
         font-size: 2rem;
     }
 	p{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 	h2{
         font-size: 2.8rem;
