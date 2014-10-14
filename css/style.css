@@ -17,7 +17,7 @@ h1, h2, h3{
 h1{
 	font-size: 3.6rem;	
 	font-family: 'Pacifico',cursive;
-    color: #FF6138;
+    color: #2e3334;
     text-shadow: 0px 2px 10px rgba(245, 242, 241, 0.56);
 }
 h2{
@@ -59,7 +59,7 @@ a{
 /* -----------------------------------*/
 
 .wrapper{
-	background-color: #FFFF9D;
+	background-color: #A3E8FF;
     width: 100%;
     margin: 0 auto;
     overflow: auto;
@@ -76,20 +76,20 @@ a{
     margin-left: 1%;
     float: left;
     width: 39%;
-    background-color: #79BD8F;
+    background-color: #68D9FF;
 }
 .two{
     margin-left: 1%;
     float: left;
     width: 22%;
-    background-color: #BEEB9F;
+    background-color: #68D9FF;
 }
 .three{
     margin-right: 1%;
     margin-left: 1%;
     float: left;
     width: 22%;
-    background-color: #BEEB9F;
+    background-color: #68D9FF;
 }
 .footer{
     margin-top: 2%;
@@ -119,13 +119,13 @@ a{
 	padding: 8px 16px;
 	text-decoration: none;
 	color: #fff;
-	background-color: #FF6138;
+	background-color: #346C7F;
 }
 .navbar a:hover,
 .navbar a:active,
 .navbar a:focus{
 	color: #626262;
-	background-color: #BEEB9F;
+	background-color: rgba(52, 108, 127, 0.54);
 }
 
 /* -----------------------------------*/
@@ -143,8 +143,8 @@ a{
 .footer p{
 	padding: 20px 20px;
 	font-size: 1rem;
-	color: #e5e5e5;	
-	background-color: #79BD8F;
+	color: #fff;	
+	background-color: #346C7F;
 }
 
 /* -----------------------------------*/
